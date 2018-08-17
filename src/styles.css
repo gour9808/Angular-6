@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import "~bootswatch/dist/simplex/_variables.scss";
+@import "~bootswatch/dist/simplex/bootstrap.css";
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow: overlay;
+    background: #f1f1f1;
+    min-width: 800px;
+    min-height: 400px;
+}
